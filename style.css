@@ -77,10 +77,11 @@ p{
   padding-bottom: .875em;
   padding-top: .875em;
 }
-h2
+@media screen and (min-width: 37.0em){
+	h2
 {
 text-align: center;
-font-size: 60px;
+font-size: 80px;
 font-weight: bold;
 color:#ff6699;
 font-family: fantasy;
@@ -92,4 +93,5 @@ font-size:20px;
 }
 h4{
 font-style: italic;
+}
 }
