@@ -68,6 +68,18 @@ fieldset
 	background-color: #fdaec2;
 	padding:5px;
 }
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
+
 p{
 	padding-left: .5em;
   padding-bottom: .875em;
