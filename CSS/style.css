@@ -43,11 +43,11 @@ body{
   font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
-
+@media screen and (max-width:100%){
 .image-block img
 {
   display: block;
-  width: 50%;
+}
 }
 
 legend{
@@ -61,7 +61,7 @@ fieldset
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 25px;
-  line-height: 1.4em;
+  line-height: 1.6em;
   letter-spacing: .5px;
   font-style: normal;
 	color:#333;
